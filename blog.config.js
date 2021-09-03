@@ -1,19 +1,10 @@
 const BLOG = {
-<<<<<<< HEAD
-  title: "yeFoenix' Notes",
+  title: 'yeFoenix' Notes',
   author: '峄峰',
   email: 'mail@yefoenix.ws',
   link: 'https://note.yefoeix.ws',
   description: '野获编• 拾遗记 • 博物志',
-  lang: 'zh-CN',
-=======
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
->>>>>>> 86db91f8b3bcd822260780fd00972536b537ca82
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -21,20 +12,14 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
-<<<<<<< HEAD
-  showAbout: true, // WIP
-  showArchive: true, // WIP
-  socialLink: 'https://yefoenix.ws',
-=======
   sortByDate: false,
   showAbout: true,
-  showArchive: true,
+  showArchive: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
->>>>>>> 86db91f8b3bcd822260780fd00972536b537ca82
+  socialLink: 'https://twitter.com/yefoenix',
   seo: {
-    keywords: ['Note', 'Website', 'yeFoenix'],
+    keywords: ['Notes', 'yeFoenix', '峄峰'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
