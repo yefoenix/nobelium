@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'yeFoenix' Notes',
+  title: 'yeFoenix Notes',
   author: '峄峰',
   email: 'mail@yefoenix.ws',
   link: 'https://note.yefoeix.ws',
